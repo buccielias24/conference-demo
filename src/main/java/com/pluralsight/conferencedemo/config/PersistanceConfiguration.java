@@ -18,7 +18,7 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 @Configuration
 public class PersistanceConfiguration {
     
-    @Bean
+   /* @Bean
     public DataSource dataSource(){
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:mysql://localhost/conference_demo?serverTimezone=UTC");
@@ -26,5 +26,5 @@ public class PersistanceConfiguration {
         builder.password("root");
         System.out.println("BEAN DATASOURCE initiliazed");
         return builder.build();
-    }
+    }*/
 }
